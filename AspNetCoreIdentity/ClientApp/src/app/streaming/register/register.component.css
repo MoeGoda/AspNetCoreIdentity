@@ -1,0 +1,28 @@
+
+.list-group-item.active {
+    background-color: #3884FE !important;
+    border-color: #3884FE !important;
+}
+
+.registered, .list-group-item .registered {
+    background-color: #f5f5f5;
+    color: green;
+}
+
+button.save {
+    text-align: center;
+}
+
+button.add {
+    text-align: center;
+    background: #eee !important;
+    color: #232222;
+}
+
+.streaming-category {
+    cursor: pointer;
+}
+
+.category-button {
+    padding: 0px 10px !important;
+}

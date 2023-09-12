@@ -1,0 +1,144 @@
+﻿html {
+    height: 100vh;
+}
+
+html, body {
+    background-color: #fff;
+    /*min-height: 100vh;*/
+    color: #242A31 !important;
+}
+
+.panel-primary {
+    box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px !important;
+    align-items: center !important;
+    justify-self: stretch !important;
+    flex-direction: row !important;
+    background-color: rgb(255, 255, 255) !important;
+    -webkit-box-align: center !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(230, 236, 241) !important;
+    border-image: initial !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+    transition: border 250ms ease 0s !important;
+}
+
+    .panel-primary > .panel-heading {
+        color: #fff;
+        background-color: #3884FE !important;
+        border-color: #3884FE !important;
+    }
+
+
+/*** PANEL PRIMARY with NAV TABS ***/
+
+.panel.with-nav-tabs .panel-heading {
+    padding: 5px 5px 0 5px;
+}
+
+.panel.with-nav-tabs .nav-tabs {
+    border-bottom: none;
+}
+
+.panel.with-nav-tabs .nav-justified {
+    margin-bottom: -1px;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+}
+
+    .with-nav-tabs.panel-primary .nav-tabs > .open > a,
+    .with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+    .with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+    .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+    .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+        color: #000;
+        background-color: #3884FE !important;
+        border-color: transparent;
+    }
+
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+    color: #3884FE !important;
+    background-color: #fff !important;
+    border-color: #3884FE !important;
+    border-bottom-color: transparent;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #3884FE !important;
+    border-color: #3071a9;
+}
+
+    .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+        color: #fff;
+    }
+
+        .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+        .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+            background-color: transparent;
+            color: #000;
+        }
+
+    .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+    .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+    .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+        background-color: #3884FE;
+    }
+
+.btn {
+    color: rgb(36, 42, 49) !important;
+    position: relative !important;
+    align-self: stretch !important;
+    box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px !important;
+    align-items: center !important;
+    justify-self: stretch !important;
+    flex-direction: row !important;
+    background-color: rgb(255, 255, 255) !important;
+    -webkit-box-align: center !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(230, 236, 241) !important;
+    border-image: initial !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+    transition: border 250ms ease 0s !important;
+}
+
+    .btn:hover {
+        color: rgb(56, 132, 254) !important;
+        border-color: rgb(56, 132, 254) !important;
+    }
+
+.btn-danger {
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+}
+
+    .btn-danger:hover {
+        color: whitesmoke !important;
+        border-color: whitesmoke !important;
+    }
+
+.alert-danger {
+    color: whitesmoke !important;
+    background-color: #d9534f !important;
+    border-color: #d9534f !important;
+}
+
+ul.error > li {
+    color: #d9534f;
+}

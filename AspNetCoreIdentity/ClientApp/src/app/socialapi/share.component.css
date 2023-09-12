@@ -1,0 +1,20 @@
+﻿.share {
+    padding-top: 90px;
+}
+
+.message {
+    padding: 14px;
+}
+
+.contact {
+    color: #4189C7;
+    font-size: large;
+}
+
+.grant-error {
+    color: #d9534f;
+}
+
+.grant-success {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.video {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.video-title {
+    color:whitesmoke;
+}
+
+.video-description {
+    color: #3884FE;
+}
+
+.video-category {
+    font-style: italic;
+    color: brown;
+}
